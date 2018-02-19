@@ -1,0 +1,212 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+button {
+    background-color: #f96020;
+    color: white;
+    width: 250px;
+    height: 50px; 
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+}
+button:hover {
+    background-color: #1b242b;
+}
+header {
+    background-image: url(header.jpg);
+    height: 820px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    color: #f96020;
+}
+header .head {
+    width: 1000px;
+    margin-left: 350px;
+    border-left: 3px, solid, white;
+    border-right: 3px, solid, white;
+}
+header .head > p {
+    color: white;
+    display: inline-block;
+}
+header .centr {
+    margin-top: 200px;
+    margin-left: 330px;
+}
+header .centr > p{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+    width: 800px;
+    margin: 0px;
+}
+header .centr > p:first-child{
+    font-size: 50px;
+    font-weight: normal;
+    width: 450px;
+}
+section .one {
+    margin-left: 300px;
+    padding: 20px;
+    position: relative;
+    top: -115px;
+}
+section .one img {
+    padding: 10px;
+}
+section .two {
+    background-color: #f6f6f7;
+    height: 450px;
+}
+section .two .eleven {
+    margin-left: 330px;
+    display: inline-block;
+    width: 450px;
+}
+section .two h1 {
+    font-size: 30px;
+}
+section .two h1:first-of-type {
+    font-weight: normal;
+}
+section .two p {
+    color: #8d98a1;
+    font-size: 16px;
+    text-align: left;
+}
+section .two p:first-child {
+    color: #b7b9be;
+    font-size: 16px;
+}
+section .two .twelve {
+    display: inline-flex;
+    float: right;
+    margin-right: 350px;
+}
+section .two .twelve ul {
+    list-style-image: url(imti.png);
+
+}
+section .two .twelve ul > li {
+    padding: 5px;
+}
+section .three {
+    text-align: center;
+    margin: 20px;
+}
+section .three > p {
+    color: #b7b9be;
+}
+section .three > div {
+    display: inline-block;
+    margin-left: 30px;
+    text-align: left;
+}
+section .four {
+    background-color: #f96020;
+    height: 300px;
+}
+section .four > img {
+    margin-left: 350px;
+    float: left
+}
+section .four .tex {
+    margin-left: 700px;
+    width: 600px;
+    color: white;
+}
+section .four .tex > p:first-child {
+    font-size: 35px;
+    padding-top: 30px;
+}
+section .four .tex > p:nth-child(2) {
+    font-size: 35px;
+    font-weight: bold;
+}
+section .four .syl {
+    margin-left: 1400px;
+}
+section .four a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+section .four a:hover {
+    color: black;
+}
+section .five {
+    padding: 40px 0px 20px 0px;
+}
+section .five p {
+    text-align: center;
+    color: #b7b9be;
+    font-weight: bold;
+}
+section .five > p:nth-child(2) {
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    font-size: 35px;
+}
+section .five .sex {
+    margin-left: 320px;
+}
+section .five .sex > div {
+    background-color: #f6f6f7;
+    width: 330px;
+    height: 250px;
+    margin: 30px;
+    display: inline-block;
+    padding: 20px;
+}
+section .five .sex > div p {
+    text-align: left;
+    font-weight: normal;
+}
+section .six {
+    background-color: #1b242b;
+    text-align: center;
+    color: white;
+}
+section .six .luk > div p:first-child {
+    color: #f96020;
+    font-size: 35px;
+    font-weight: bold;
+}
+section .six .las {
+    font-size: 0px;
+}
+section .seven {
+    background-color: #f6f6f7;
+    padding: 30px;
+}
+section .seven > p:first-of-type {
+    text-align: center;
+    color: #b7b9be;
+    padding-top: 10px;
+}
+section .seven > h1:first-of-type {
+    text-align: center;
+}
+section .seven .ven > div {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    display: inline-block;
+}
+section .eight > img {
+    display: inline-block;
+    margin-left: 350px;
+}
+section .eight div {
+    display: inline-block;
+    margin-left: 750px;
+}
