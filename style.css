@@ -175,11 +175,23 @@ section .six {
     text-align: center;
     color: white;
 }
-section .six .luk > div p:first-child {
-    color: #f96020;
-    font-size: 35px;
-    font-weight: bold;
+section .six .luk {
+    display: inline-block;
 }
+section .six .luk > div p:first-child {
+    display: inline-block;
+    padding-right: 10px;
+    color: #f96020;
+    font-size: 50px;
+    font-weight: bold;
+    border-right: 2px solid white;
+}
+section .six .luk > div p:last-child {
+    display: inline-block;
+    width: 100px;
+    padding-left: 10px;
+}
+
 section .six .las {
     font-size: 0px;
 }
