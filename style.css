@@ -175,44 +175,69 @@ section .six {
     text-align: center;
     color: white;
 }
+section .six > p:first-child {
+    color: #757981;
+    padding-top: 50px;
+}
+section .six .led {
+    font-size: 35px;
+}
 section .six .luk {
     display: inline-block;
+}
+section .six .luk > div {
+    display: inline-block;
+    width: 300px;
 }
 section .six .luk > div p:first-child {
     display: inline-block;
     padding-right: 10px;
     color: #f96020;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     border-right: 2px solid white;
 }
 section .six .luk > div p:last-child {
     display: inline-block;
-    width: 100px;
+    width: 125px;
     padding-left: 10px;
+    font-size: 20px;
 }
-
 section .six .las {
     font-size: 0px;
 }
 section .seven {
     background-color: #f6f6f7;
     padding: 30px;
+    height: 530px;
 }
-section .seven > p:first-of-type {
+section .seven > p:first-child {
     text-align: center;
     color: #b7b9be;
     padding-top: 10px;
 }
-section .seven > h1:first-of-type {
+section .seven > p:nth-child(2) {
     text-align: center;
+    font-size: 35px;
 }
 section .seven .ven > div {
-    background-color: white;
-    width: 350px;
-    height: 350px;
-    padding: 20px;
     display: inline-block;
+    background-color: white;
+    width: 330px;
+    height: 270px;
+    padding: 20px;
+    float: left;
+    margin-left: 60px;
+}
+section .seven .ven > div:first-child {
+    margin-left: 280px;
+}
+section .seven .ven > div p:nth-child(even) {
+    color: #8d98a1;
+}
+section .eight {
+    height: 300px;
+    padding: 65px;
 }
 section .eight > img {
     display: inline-block;
@@ -220,5 +245,27 @@ section .eight > img {
 }
 section .eight div {
     display: inline-block;
-    margin-left: 750px;
+    position: absolute;
+    margin-left: 20px;
+}
+section .eight div p:first-child {
+    font-size: 35px;
+}
+section .eight div p:nth-child(2) {
+    font-size: 35px;
+    color: #f96020;
+}
+section .eight div p:nth-child(3) {
+    color:#8d98a1;
+}
+section .eight div button:last-child {
+    background-color: #1b242b;
+    margin-left: 50px;
+}
+section .eight div button:last-child:hover {
+    background-color: #f96020;
+}
+section .nine {
+    background-color: #f96020;
+    height: 250px;
 }
