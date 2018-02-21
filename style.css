@@ -21,21 +21,65 @@ header {
 }
 header a {
     text-decoration: none;
-    color: white;
+    color: #8d8d8d;
 }
 header a:hover {
     color: #f96020;
 }
-header .head {
-    width: 1000px;
-    margin-left: 350px;
-    border-left: 3px, solid, white;
-    border-right: 3px, solid, white;
+header .dah {
+    border-bottom: 1px solid #8d8d8d; 
 }
-header .head > p {
+header .dah > img:first-child {
+    display: inline-block;
+    margin: 30px;
+    margin-left: 200px;
+}
+header .dah .head {
+    display: inline-block;
+    position: absolute;
+    padding: 9px;
+    width: 1000px;
+    border-left: 1px solid #8d8d8d;
+    border-right: 1px solid #8d8d8d;
+}
+header .dah .head > p {
     color: white;
     display: inline-block;
+    margin-right: 240px;
+    color: #8d8d8d;
 }
+header .dah .head .blog {
+    display: inline-block;
+    padding: 0;
+}
+header .dah .head .blog li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+header .dah .head .blog li a {
+    text-decoration: none;
+    padding: 5px 5px;
+    width: 115px;
+    display: block;
+}
+header .dah .head .blog li ul {
+    display: none;
+    position: absolute;
+    padding-left: 0px;
+    width: 130px;
+    max-height: 100px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+header .dah .head .blog li:hover ul {
+    display: block;
+}
+header .dah .right {
+    display: inline-block;
+    float: right;
+    margin: 30px 350px 0 0;
+} 
 header .centr {
     margin-top: 200px;
     margin-left: 330px;
@@ -267,5 +311,61 @@ section .eight div button:last-child:hover {
 }
 section .nine {
     background-color: #f96020;
-    height: 250px;
+    height: 170px;
+}
+section .nine div{
+    display: inline-block;
+    margin: 50px;
+    width: 350px;
+}
+section .nine div:first-child {
+    margin-left: 270px;
+}
+section .nine div img {
+    display: inline-block
+}
+section .nine div > p {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 10px;
+}
+section .nine div > p:nth-child(odd) {
+    margin-top: 40px;
+}
+footer {
+    height: 150px;
+    background-color: #19191a;
+}
+footer .foot {
+    display: inline-block;
+    width: 1100px;
+    margin: 30px 350px;
+}
+footer .foot .kem {
+    border-bottom: 1px solid #8d8d8d;
+}
+footer .foot .kem img {
+    display: inline-block;
+}
+footer .foot .kem p {
+    display: inline-block;
+    color: #8d8d8d;
+    border-left: 1px solid;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+footer .foot .mek p {
+    display: inline-block;
+    color: #8d8d8d;
+}
+footer .foot .mek .pot {
+    display: inline-block;
+    margin-top: 10px;
+    float: right;
+}
+footer a {
+    text-decoration: none;
+    color: white;
 }
