@@ -1,6 +1,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
+    width: 100%;
     font-family: 'Raleway', sans-serif;
 }
 button {
@@ -21,7 +22,9 @@ header {
 }
 header a {
     text-decoration: none;
-    color: #8d8d8d;
+    font-weight: bold;
+    color: #ffffff;
+    margin-left: 5px;
 }
 header a:hover {
     color: #f96020;
@@ -32,7 +35,7 @@ header .dah {
 header .dah > img:first-child {
     display: inline-block;
     margin: 30px;
-    margin-left: 200px;
+    margin-left: 5%;
 }
 header .dah .head {
     display: inline-block;
@@ -43,10 +46,9 @@ header .dah .head {
     border-right: 1px solid #8d8d8d;
 }
 header .dah .head > p {
-    color: white;
+    color: #ffffff;
     display: inline-block;
-    margin-right: 240px;
-    color: #8d8d8d;
+    margin-right: 215px;
 }
 header .dah .head .blog {
     display: inline-block;
@@ -60,7 +62,7 @@ header .dah .head .blog li {
 header .dah .head .blog li a {
     text-decoration: none;
     padding: 5px 5px;
-    width: 115px;
+    width: 125px;
     display: block;
 }
 header .dah .head .blog li ul {
@@ -78,11 +80,13 @@ header .dah .head .blog li:hover ul {
 header .dah .right {
     display: inline-block;
     float: right;
-    margin: 30px 350px 0 0;
+    margin-top: 30px;
+    margin-right: 3%;
 } 
 header .centr {
+    width: max-content;
     margin-top: 200px;
-    margin-left: 330px;
+    margin-left: 12%;
 }
 header .centr > p{
     font-size: 80px;
@@ -97,20 +101,34 @@ header .centr > p:first-child{
     width: 450px;
 }
 section .one {
-    margin-left: 300px;
+    margin-left: 10%;
     padding: 20px;
     position: relative;
     top: -115px;
 }
-section .one img {
-    padding: 10px;
+section .one div {
+    display: inline-block;
+    background-color: #f96020;
+    color: white;
+    height: 300px;
+    width: 220px;
+    margin-right: 20px;
+    padding: 20px;
+}
+section .one div h2:first-of-type {
+    margin-top: 150px;
+}
+section .one div h2:last-of-type {
+    font-weight: normal;
 }
 section .two {
     background-color: #f6f6f7;
+    padding: 10px;
     height: 450px;
+    margin-top: -50px;
 }
 section .two .eleven {
-    margin-left: 330px;
+    margin-left: 10%;
     display: inline-block;
     width: 450px;
 }
@@ -132,7 +150,7 @@ section .two p:first-child {
 section .two .twelve {
     display: inline-flex;
     float: right;
-    margin-right: 350px;
+    margin-right: 5%;
 }
 section .two .twelve ul {
     list-style-image: url(imti.png);
@@ -155,14 +173,14 @@ section .three > div {
 }
 section .four {
     background-color: #f96020;
-    height: 300px;
+    height: 293px;
 }
 section .four > img {
-    margin-left: 350px;
+    margin-left: 10%;
     float: left
 }
 section .four .tex {
-    margin-left: 700px;
+    margin-left: 35%;
     width: 600px;
     color: white;
 }
@@ -175,7 +193,7 @@ section .four .tex > p:nth-child(2) {
     font-weight: bold;
 }
 section .four .syl {
-    margin-left: 1400px;
+    margin-left: 1200px;
 }
 section .four a {
     text-decoration: none;
@@ -200,7 +218,7 @@ section .five > p:nth-child(2) {
     font-size: 35px;
 }
 section .five .sex {
-    margin-left: 320px;
+    margin-left: 5%;
 }
 section .five .sex > div {
     background-color: #f6f6f7;
@@ -250,6 +268,9 @@ section .six .luk > div p:last-child {
 section .six .las {
     font-size: 0px;
 }
+section .six .las img {
+    width: 25%;
+}
 section .seven {
     background-color: #f6f6f7;
     padding: 30px;
@@ -274,7 +295,7 @@ section .seven .ven > div {
     margin-left: 60px;
 }
 section .seven .ven > div:first-child {
-    margin-left: 280px;
+    margin-left: 5%;
 }
 section .seven .ven > div p:nth-child(even) {
     color: #8d98a1;
@@ -285,7 +306,7 @@ section .eight {
 }
 section .eight > img {
     display: inline-block;
-    margin-left: 350px;
+    margin-left: 10%;
 }
 section .eight div {
     display: inline-block;
@@ -319,7 +340,7 @@ section .nine div{
     width: 350px;
 }
 section .nine div:first-child {
-    margin-left: 270px;
+    margin-left: 5%;
 }
 section .nine div img {
     display: inline-block
@@ -341,7 +362,8 @@ footer {
 footer .foot {
     display: inline-block;
     width: 1100px;
-    margin: 30px 350px;
+    margin-top: 30px;
+    margin-left: 10%;
 }
 footer .foot .kem {
     border-bottom: 1px solid #8d8d8d;
